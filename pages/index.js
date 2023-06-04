@@ -12,7 +12,7 @@ export default function Home() {
         </Head>
         {/* body */}
         <main>
-                <h1>ha ha ha ha</h1>
+                <h1>ha ha ha </h1>
         </main>
       </div>
     </Layout>
