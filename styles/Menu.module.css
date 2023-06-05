@@ -1,0 +1,64 @@
+.container {
+    display       : flex;
+    flex-direction: column;
+    gap           : 3rem;
+    margin-top    : 6rem;
+}
+
+.heading {
+    display        : flex;
+    flex-direction : column;
+    font-weight    : bold;
+    justify-content: flex-start;
+}
+
+.heading>:nth-child(1) {
+    color        : var(--themeYellow);
+    font-size    : 1rem;
+    margin-bottom: 2rem;
+}
+
+.heading>:nth-child(2),
+.heading>:nth-child(3) {
+    font-size: 2rem;
+}
+
+.menu {
+    align-items    : center;
+    display        : flex;
+    flex-wrap      : wrap;
+    gap            : 6.5rem;
+    justify-content: center;
+    row-gap        : 2rem;
+}
+
+.pizza {
+    align-items    : flex-start;
+    display        : flex;
+    flex-direction : column;
+    font-size      : 1.2rem;
+    font-weight    : bold;
+    gap            : .5rem;
+    justify-content: center;
+}
+
+.imageWrapper {
+    border-radius: 2rem;
+    height       : 16rem;
+    overflow     : hidden;
+    position     : relative;
+    width        : 22rem;
+}
+
+.imageWrapper>img {
+    height: 16rem;
+    width : 22rem;
+}
+
+.imageWrapper>img:hover {
+    transform: scale(1.1);
+}
+
+.pizza:hover {
+    cursor: pointer;
+}

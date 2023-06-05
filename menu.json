@@ -1,0 +1,38 @@
+[
+    {
+        "src": "./p1.jpg",
+        "name": "Mexico Pizza",
+        "price": "18"
+
+    },
+    {
+        "src": "./p2.jpg",
+        "name": "Italian Pizza",
+        "price": "10"
+
+    },
+    {
+        "src": "./p3.jpg",
+        "name": "Sharaj Pizza",
+        "price": "14"
+
+    },
+    {
+        "src": "./p4.jpg",
+        "name": "Red Chili Pizza",
+        "price": "18"
+
+    },
+    {
+        "src": "./p5.jpg",
+        "name": "Tikka Pizza",
+        "price": "11"
+
+    },
+    {
+        "src": "./p6.jpg",
+        "name": "Cheese Pizza",
+        "price": "15"
+
+    }
+]
