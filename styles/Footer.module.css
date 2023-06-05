@@ -1,33 +1,33 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    margin-top: 6rem;
-    align-items: center;
+    align-items    : center;
+    background     : linear-gradient(1deg, rgba(249, 255, 182, 0.85) 0%, rgba(255, 255, 255, 0) 14rem);
+    display        : flex;
+    flex-direction : column;
+    gap            : 3rem;
     justify-content: center;
-    background: linear-gradient(1deg, rgba(249, 255, 182, 0.85) 0%, rgba(255, 255, 255, 0) 14rem);
+    margin-top     : 6rem;
 }
 
 .container>span {
-    color: var(--themeYellow);
+    color      : var(--themeYellow);
     font-weight: bold;
 }
 
 .logo {
-    display: flex;
-    justify-items: center;
+    display        : flex;
+    gap            : 0.5rem;
     justify-content: center;
-    gap: 0.5rem;
+    justify-items  : center;
 }
 
 .logo>span {
+    font-size  : 1.5rem;
     font-weight: bold;
-    font-size: 1.5rem;
 }
 
 .social {
     display: flex;
-    gap: 1rem;
+    gap    : 1rem;
 }
 
 .social>* {

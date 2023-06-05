@@ -1,0 +1,123 @@
+.container {
+    display : flex;
+    position: relative;
+}
+
+.left {
+    display       : flex;
+    flex-direction: column;
+    gap           : 2rem;
+}
+
+.div {
+    align-items     : center;
+    background-color: var(--yellow);
+    border-radius   : 2rem;
+    color           : var(--themeYellow);
+    display         : flex;
+    font-size       : 0.8rem;
+    font-weight     : bold;
+    justify-content : center;
+    margin-top      : 3rem;
+    padding         : 1rem;
+    width           : fit-content;
+}
+
+.heroText {
+    display       : flex;
+    flex-direction: column;
+    font-size     : 4rem;
+    font-weight   : bold;
+}
+
+.miniText {
+    color      : var(--gray);
+    font-weight: 600;
+    width      : 70%;
+}
+
+.right {
+    position: relative;
+}
+
+.imageContainer {
+    left    : 12rem;
+    position: absolute;
+    top     : 4rem;
+    width   : 45rem;
+}
+
+.circle {
+    background-color: var(--themeYellow);
+    border-radius   : 8.5rem;
+    height          : 17rem;
+    left            : 7rem;
+    position        : absolute;
+    top             : 12rem;
+    width           : 17rem;
+    z-index         : -1;
+}
+
+.contactUs {
+    align-items     : center;
+    background-color: white;
+    border-radius   : 5rem;
+    box-shadow      : var(--shadow);
+    color           : var(--themeYellow);
+    display         : flex;
+    gap             : 1rem;
+    justify-content : center;
+    left            : 5rem;
+    padding         : 1rem;
+    position        : absolute;
+    top             : 6rem;
+    width           : max-content;
+}
+
+.contactUs>div {
+    align-items    : center;
+    background     : rgb(59 208 59);
+    border-radius  : 50%;
+    display        : flex;
+    height         : 2.5rem;
+    justify-content: center;
+    width          : 2.5rem;
+}
+
+.contactUs:hover {
+    cursor   : pointer;
+    transform: scale(1.1);
+}
+
+.pizza {
+    background-color: white;
+    border-radius   : 0.5rem;
+    bottom          : 3rem;
+    box-shadow      : var(--shadow);
+    display         : flex;
+    gap             : 1rem;
+    left            : 34rem;
+    padding         : 0.5rem;
+    position        : absolute;
+    width           : max-content;
+}
+
+.pizza>:nth-child(1) {
+    border-radius: .5rem;
+    height       : 3.2rem;
+    margin       : .25rem;
+    overflow     : hidden;
+    width        : 6rem;
+}
+
+.pizza>:nth-child(2) {
+    display        : flex;
+    flex-direction : column;
+    font-weight    : bold;
+    justify-content: space-between;
+}
+
+.pizza:hover {
+    cursor   : pointer;
+    transform: scale(1.1);
+}
